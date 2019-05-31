@@ -29,7 +29,7 @@
         public function GetClient() {
 
             $sid = $this->ReadPropertyString("sid");
-            $token = $this->ReadPropertyToken("token");
+            $token = $this->ReadPropertyString("token");
 
             if ($sid == "" || $token == "") {
                 echo "Kann Client nicht erstellen: SID oder Token fehlen!";
