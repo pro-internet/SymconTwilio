@@ -4,8 +4,12 @@
     { "type": "SelectInstance", "name": "twilioInstance", "caption": "Twilio Client" },
     { "type": "List", "name": "numbers", "add": true, "delete": true, "columns": [
 
-      { "caption": "Name", "name": "name" },
-      { "caption": "Telefonnummer", "name": "number" }
+      { "caption": "Name", "name": "name", "edit": {
+        "type": "ValidationTextBox"
+        } },
+      { "caption": "Telefonnummer", "name": "number", "edit": {
+        "type": "ValidationTextBox"
+        } }
 
     ] },
     { "type": "ValidationTextBox", "name": "twilionumber", "caption": "Anrufer Nummer" }
