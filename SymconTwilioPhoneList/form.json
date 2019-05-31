@@ -6,7 +6,7 @@
 
       { "caption": "Name", "name": "name", "edit": {
         "type": "ValidationTextBox",
-        "width": "auto",
+        "width": "auto"
         } },
       { "caption": "Telefonnummer", "name": "number", "edit": {
         "type": "ValidationTextBox",
