@@ -1,0 +1,15 @@
+{
+    "id": "{c705e77a-fc31-4e30-8b86-7b14aaec6767}",
+    "name": "SymconTwilio",
+    "type": 4,
+    "vendor": "prointernet",
+    "aliases":
+    [
+        "SymconTwilio",
+        "Twilio"
+    ],  
+    "parentRequirements": [],
+    "childRequirements": [],
+    "implemented": [],
+    "prefix": "Twilio"
+}

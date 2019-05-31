@@ -1,0 +1,7 @@
+{
+  "elements":
+  [
+		{ "type": "ValidationTextBox", "name": "sid", "caption": "SID" },
+		{ "type": "ValidationTextBox", "name":"token", "caption": "Token" }
+  ]
+}
