@@ -1,8 +1,8 @@
 <?
 
     require_once __DIR__ . "/autoload.php";
-    
-    use Twilio\Rest\Client;
+
+    use Rest\Client;
 
     // Klassendefinition
     class SymconTwilio extends IPSModule {
