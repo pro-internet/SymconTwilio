@@ -10,7 +10,7 @@
         } },
       { "caption": "Telefonnummer", "name": "number", "edit": {
         "type": "ValidationTextBox",
-        "width": "auto",
+        "width": "auto"
         } }
 
     ] },
