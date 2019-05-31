@@ -2,7 +2,7 @@
   "elements":
   [
     { "type": "SelectInstance", "name": "twilioInstance", "caption": "Twilio Client" },
-    { "type": "List", "name": "numbers", "columns": [
+    { "type": "List", "name": "numbers", "add": true, "delete": true, "columns": [
 
       { "caption": "Name", "name": "name" },
       { "caption": "Telefonnummer", "name": "number" }
