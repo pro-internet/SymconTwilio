@@ -1,0 +1,15 @@
+{
+    "id": "{f8877ba6-3f5d-46c2-8cb0-0050ba6f8058}",
+    "name": "SymconTwilioPhoneList",
+    "type": 3,
+    "vendor": "prointernet",
+    "aliases":
+    [
+        "Twilio Phonelist",
+        "PhoneList"
+    ],  
+    "parentRequirements": [],
+    "childRequirements": [],
+    "implemented": [],
+    "prefix": "TwilioPhoneList"
+}
