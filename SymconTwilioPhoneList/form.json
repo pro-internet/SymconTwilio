@@ -5,10 +5,12 @@
     { "type": "List", "name": "numbers", "add": true, "delete": true, "columns": [
 
       { "caption": "Name", "name": "name", "edit": {
-        "type": "ValidationTextBox"
+        "type": "ValidationTextBox",
+        "width": "auto",
         } },
       { "caption": "Telefonnummer", "name": "number", "edit": {
-        "type": "ValidationTextBox"
+        "type": "ValidationTextBox",
+        "width": "auto",
         } }
 
     ] },

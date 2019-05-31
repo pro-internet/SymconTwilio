@@ -45,9 +45,10 @@
                     if (!$completed) {
                         echo $number->name . " wird angerufen... \n";
                         $call = $client->calls->create($number->number, $caller, array("url" => "http://demo.twilio.com/docs/voice.xml"));
-                        Sleep(30);
+                        Sleep(32);
     
                         $result = file_get_contents("https://api.twilio.com" . $call->uri);
+                        Sleep(32);
 
                         if ($result->status == "completed") {
                             $completed = true;
