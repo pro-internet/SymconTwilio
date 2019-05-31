@@ -1,5 +1,8 @@
 <?
 
+    require_once __DIR__ . "/API/autoload.php";
+    use Twilio\Rest\Client;
+
     // Klassendefinition
     class SymconTwilio extends IPSModule {
  
@@ -25,7 +28,16 @@
 
         public function GetClient() {
 
-            echo __DIR__;
+            $sid = $this->ReadPropertyString("sid");
+            $token = $this->ReadPropertyToken("token");
+
+            if ($sid == "" || $token == "") {
+                echo "Kann Client nicht erstellen: SID oder Token fehlen!";
+                return;
+            }
+
+            $client = new Client($sid, $token);
+            return $client;
 
         }
 
