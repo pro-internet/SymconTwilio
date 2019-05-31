@@ -21,6 +21,7 @@
 
            $this->RegisterPropertyInteger("twilioInstance", 0);
            $this->RegisterPropertyString("numbers", "");
+           $this->RegisterPropertyString("twilionumber", "");
  
         }
 
