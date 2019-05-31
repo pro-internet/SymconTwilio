@@ -42,7 +42,7 @@
                 foreach ($numbersArray as $number) {
 
                     if (!$completed) {
-                        echo $number->name " wird angerufen... \n";
+                        echo $number->name . " wird angerufen... \n";
                         $call = $client->calls->create($number->number, $caller, array("url" => "http://demo.twilio.com/docs/voice.xml"));
                         Sleep(30);
     
